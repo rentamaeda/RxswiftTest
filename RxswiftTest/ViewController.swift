@@ -28,6 +28,7 @@ class ViewController: UIViewController {
                 self.favCount += 1
                 self.favCountLabel.text = String(self.favCount)
             })
+            //disposed ループから抜ける
             .disposed(by: disposeBag)
         
     }
